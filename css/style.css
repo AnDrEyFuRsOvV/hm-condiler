@@ -14,7 +14,7 @@ body {
     font-family: "Comfortaa", serif;
     /* font-family: "Yeseva One", serif; */
     font-weight: 400;
-    line-height: 16px;
+    line-height: 1.2;
 }
 
 a {
@@ -45,6 +45,19 @@ header {
     gap: 20px;
 }
 
-.menu__list-link{
+.menu__list-link {
     text-transform: uppercase;
+}
+
+.phone {
+    position: relative;
+}
+
+.phone::before {
+    content: url(../images/phone.svg);
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: -23px;
+    top: -1px;
 }
